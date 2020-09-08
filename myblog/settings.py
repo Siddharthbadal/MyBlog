@@ -21,12 +21,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'blog/templates/blog')
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'em2c0za9#th=gsh@jyb)imuowj=lo%_sn)!5r#ixt=9)s-+h=9'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['myblogs2020.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
