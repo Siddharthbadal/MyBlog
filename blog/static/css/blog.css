@@ -1,0 +1,65 @@
+body {
+    background-color: #fff;
+    /* display:flex; */
+    /* justify-content: center;  */
+    font-family: 'Merriweather', serif;
+}
+
+.techfont {
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-size: 2rem; */
+    margin-bottom: 10px;
+    /* color: #fff; */
+}
+
+.bigbrand {
+    /* font-size: 1.5rem; */
+}
+
+.centerstage {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Merriweather', serif;
+}
+
+.postdate {
+    text-align: center;
+}
+
+.posttitle {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.postcontent {
+    /* font-family: 'Russo One', sans-serif; */
+    /* font-size: 1.75rem; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-comment {
+    position: absolute;
+    right: 0px;
+}
+
+.readmore {
+    color: black;
+    /* font-size: 1em; */
+}
+
+.navbar {
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.about {
+    font-family: 'Indie Flower', cursive;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}

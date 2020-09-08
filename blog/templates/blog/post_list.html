@@ -1,0 +1,23 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+        <div class="centerstage">
+            {% for post in post_list %}
+                <div class="post">
+                    <h1><a class="title" href="{% url 'post_detail' pk=post.pk %}" style="text-decoration: none;">{{post.title}}</a></h1>
+
+                <div class="date">
+                    <p>Published on: {{post.published_date|date:"D M Y"}}</p>
+                </div>
+                <div>   
+                <p class="postcontent">
+                {{ post.text|safe|truncatewords:"50"|linebreaks }}</p>
+                <a class="readmore" href="{% url 'post_detail' pk=post.pk %}" style="text-decoration: none;">... read more</a>
+                
+                </div>
+                <a href="{% url 'post_detail' pk=post.pk %}"style="text-decoration: none;">
+                Comments: {{post.approve_comments.count }}</a>
+                </div><hr>
+            {% endfor %}
+        </div> 
+{% endblock %}
